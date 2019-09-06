@@ -21,7 +21,7 @@ function send_mail()
     	    $nextMailerId=1;//if current rec is the last row in the table,then active first one for countinue loop.
         }
         else
-        {
+        {dsads
     	    $nextMailerId=++$id;
         }
         activeNextMailer($nextMailerId,$tbl_name);
